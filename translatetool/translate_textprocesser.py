@@ -17,7 +17,7 @@ class Translate_TextProcesser():
         """add japanese end mark, if there's no mark at the end of speech lines.
         """
         self.episode_text = re.sub(
-            r'([^。？！])?(」*)', r'\1。\2',
+            r'([^。？！])?(」+)', r'\1。\2',
             self.episode_text
         )
     
