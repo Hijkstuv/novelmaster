@@ -7,6 +7,7 @@ You have to put
   1. **your own openai api key**,
   2. your own notion page (optional),
   3. your own notion api auth token (optional)
+
 in .env file.
 
 
