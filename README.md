@@ -9,7 +9,8 @@ You have to put [
   3. your own notion api auth token (optional)
 ] in .env file.
 
-```.env
+.env
+```
 translate_gpt_api_key='(your openai api key)'
 translate_notion_auth='(your notion auth)'
 translate_notion_main_page_id='(your notion page id)'
