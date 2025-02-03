@@ -171,7 +171,7 @@ class NovelMaster(TTP, TCrawl, TGpt, TLocal, TNotion):
     
     def translateNovel(
         self,
-        method: str|None = "batch",
+        method: str|None = "chat",
         work_limit: int|None = None
     ) -> None:
         """translate with work limit, or translate all.
