@@ -3,11 +3,11 @@ The python package for crawl & translate web novels, from [syosetukani narou(小
 
 You need these packages : [Dotenv, Selenium, openai, notion-client] <- use ```pip install (package_name)```.
 
-You have to put [
+You have to put
   1. **your own openai api key**,
   2. your own notion page (optional),
   3. your own notion api auth token (optional)
-] in .env file.
+in .env file.
 
 
 ```
