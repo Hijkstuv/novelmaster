@@ -1,0 +1,2 @@
+# novelmaster
+Simple translation project
