@@ -158,7 +158,7 @@ class NovelMaster(TTP, TCrawl, TGpt, TLocal, TNotion):
         )
         self.setText(translate_response.translation)
         self.text_tool("post_pn")
-        self.episodeWrite(self.target_lang)
+        self.writeEpisode(self.target_lang)
         for wordset in translate_response.proper_noun_dict:
             i = len(self.info["glossary"])
             self.info["glossary"].append({
