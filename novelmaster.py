@@ -173,7 +173,6 @@ class NovelMaster(TTP, TCrawl, TGpt, TLocal, TNotion):
     
     def translateEpisode(
         self,
-        debug: bool,
         method: str|None = "chat"
     ) -> None:
         """translate episode with the method : "chat" / "batch".
@@ -190,8 +189,7 @@ class NovelMaster(TTP, TCrawl, TGpt, TLocal, TNotion):
         translate_response = func(
             self.info["source_lang"],
             self.target_lang,
-            self.episode_text,
-            debug
+            self.episode_text
         )
         self.setText(translate_response.translation)
         self.writeEpisode(self.target_lang)
